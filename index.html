@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta para una Papeleria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="1266bdff-dda1-46cb-b0b4-ff817f8caebc.svg" alt="Logo del negocio">
+        <h1>Encuesta para una Papelería pequeña</h1>
+        <p>Queremos conocer tu opinión para ofrecerte los mejores productos y servicios.</p>
+    </header>
+
+    <main>
+        <form id="encuesta-form">
+            <section>
+                <h2>1. ¿Qué tipo de productos o servicios te interesan para una papelería pequeña?</h2>
+                <label>
+                    <input type="checkbox" name="productos" value="Papeleria"> Plumas, lapices y plumones
+                </label>
+                <label>
+                    <input type="checkbox" name="productos" value="Tecnología"> Dulces o bebidas
+                </label>
+                <label>
+                    <input type="checkbox" name="productos" value="Comida/Bebida"> Cartulinas, hojas de maquina y papel cascaron
+                </label>
+                <label>
+                    <input type="checkbox" name="productos" value="Servicios de consultoría"> Servicios de impresión
+                </label>
+                <label>
+                    <input type="checkbox" name="productos" value="Otro"> Otros
+                </label>
+            </section>
+
+            <section>
+                <h2>2. ¿Qué te haría decidirte a comprar en esta papelería?</h2>
+                <label>
+                    <input type="radio" name="factores-decision" value="Calidad de los productos/servicios"> Calidad de los productos
+                </label>
+                <label>
+                    <input type="radio" name="factores-decision" value="Precio competitivo"> Precio competitivo
+                </label>
+                <label>
+                    <input type="radio" name="factores-decision" value="Ubicación del negocio"> Ubicación del negocio
+                </label>
+                <label>
+                    <input type="radio" name="factores-decision" value="Recomendaciones de otros"> Recomendaciones de otros
+                </label>
+            </section>
+
+            <section>
+                <h2>3. ¿Con qué frecuencia crees que utilizarías los productos o servicios de este negocio?</h2>
+                <label>
+                    <input type="radio" name="frecuencia" value="Diariamente"> Diariamente
+                </label>
+                <label>
+                    <input type="radio" name="frecuencia" value="Semanalmente"> Semanalmente
+                </label>
+                <label>
+                    <input type="radio" name="frecuencia" value="Mensualmente"> Mensualmente
+                </label>
+                <label>
+                    <input type="radio" name="frecuencia" value="De vez en cuando"> De vez en cuando
+                </label>
+            </section>
+
+            <section>
+                <h2>4. ¿Cuál es el rango de precios que considerarías justo para los productos/servicios que ofrecería este negocio?</h2>
+                <label>
+                    <input type="radio" name="rango-precio" value="Bajo (menos de $20)"> Bajo (menos de $20)
+                </label>
+                <label>
+                    <input type="radio" name="rango-precio" value="Medio ($20 - $100)"> Medio ($20 - $100)
+                </label>
+                <label>
+                    <input type="radio" name="rango-precio" value="Alto (más de $100)"> Alto (más de $100)
+                </label>
+            </section>
+
+            <section>
+                <h2>5. ¿Qué tan importante es para ti que el negocio tenga presencia online (página web, redes sociales)?</h2>
+                <label>
+                    <input type="radio" name="presencia-online" value="Muy importante"> Muy importante
+                </label>
+                <label>
+                    <input type="radio" name="presencia-online" value="Algo importante"> Algo importante
+                </label>
+                <label>
+                    <input type="radio" name="presencia-online" value="Poco importante"> Poco importante
+                </label>
+                <label>
+                    <input type="radio" name="presencia-online" value="No importante"> No importante
+                </label>
+            </section>
+
+            <section>
+                <h2>6. ¿Tienes alguna sugerencia o comentario para ayudarnos a mejorar nuestro negocio?</h2>
+                <textarea name="sugerencias" rows="4" placeholder="Escribe tu sugerencia aquí..."></textarea>
+            </section>
+
+            <section>
+                <button type="submit">Enviar Encuesta</button>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paper store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
